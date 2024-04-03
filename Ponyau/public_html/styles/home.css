@@ -1,0 +1,113 @@
+/* fonts */
+@font-face {font-family: mountains-of-christmas; src: url('fonts/MountainsofChristmas-Regular.ttf');}
+@font-face {font-family: matesc; src: url('fonts/MateSC-Regular.ttf');}
+
+/* type selectors */
+h1 {font-family: mountains-of-christmas; font-size: 400%; text-align: center; 
+    margin-top: 0px; border-top: 0px; padding-top: 0px;}
+h2 {font-family: matesc; text-align: center;}
+h4 {font-family: matesc; text-align: center; 
+    margin-bottom: 0px; border-bottom: 0px; padding-bottom: 0px;}
+p {font-family: matesc;}
+
+/* ID selectors */
+
+
+/* class selectors */
+.colaurore {
+    float: left;
+    margin-left: 28%;
+    margin-right: 5px;
+}
+
+.coleclipse {
+    float: right;
+    margin-left: 5px;
+    margin-right: 28%;
+}
+
+.rowkings::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin: 35px;
+  }
+
+.coltemp {
+    float: left;
+    margin-left: 18%;
+    margin-right: 15px;
+  }
+
+.coljud {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+.colenv {
+    float: left;
+    margin-left: 15px;
+    margin-right: 18%;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    }
+  
+/* Make the image to responsive */
+.image {
+    display: block;
+    width: auto;
+    height: 281px;
+  }
+  
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family: matesc;
+  }
+  
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+    opacity: 1;
+  }
+
+/* descendant selectors */
+
+
+/* combined selectors */
+
+
+
+/* pseudoclass selectors */
+a:link {color:#003366;text-decoration:none;}
+a:visited {color:#6699CC;text-decoration:none;}
+a:hover {color:#CC3300;text-decoration:underline;}
+a:active {color:#CC3300;text-decoration:underline;}
+
+/* FONTS */
+
+  
